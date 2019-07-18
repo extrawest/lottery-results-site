@@ -1,0 +1,38 @@
+$border-size: 2px;
+$border-color: #a3a3a3;
+$circle-day-size: 32px;
+$inactive-color: #dddddd;
+
+.circle {
+  height: $circle-day-size;
+  width: $circle-day-size;
+  border: 2px solid $border-color;
+  border-radius: 100%;
+}
+
+.border_inactive {
+  border: 2px solid $inactive-color;
+}
+
+.active {
+  color: #2c71be;
+}
+
+.inactive {
+  color: $inactive-color;
+  pointer-events: none;
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  font-size: 110%;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+div.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

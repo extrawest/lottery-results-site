@@ -1,0 +1,18 @@
+footer {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.extrawest-logo {
+  background: url('../../../assets/icons/extrawest_logo.svg') no-repeat;
+  background-size: 88px;
+  height: 20px;
+  width: 95px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  vertical-align: middle;
+}

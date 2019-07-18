@@ -1,0 +1,25 @@
+.flex-block {
+  display: flex;
+  align-items: center;
+}
+
+.results {
+  margin: 20px 0px;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background-color: #eaecee;
+}
+
+.box {
+  margin: 5px;
+  font-weight: bolder;
+  color: #2c71be;
+}
+
+.material-icons {
+  color: #2c71be;
+  cursor: default;
+}

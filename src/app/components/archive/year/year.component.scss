@@ -1,0 +1,30 @@
+$text-color: #2c71be;
+
+.years-list__title {
+  padding-bottom: 5px;
+}
+
+.years-list__decade-title {
+  font-weight: bolder;
+  font-size: 120%;
+}
+
+a.years-list__year {
+  font-size: 130%;
+  font-weight: 500;
+  text-decoration: underline;
+  color: $text-color;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+mat-icon {
+  color: $text-color;
+}
+
+.years-list__years {
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

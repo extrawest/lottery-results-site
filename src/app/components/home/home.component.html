@@ -1,0 +1,16 @@
+<div class="home-card-container" *ngIf="lotteryList">
+  <mat-card *ngFor="let lottery of lotteryList">
+    <mat-card-title
+      ><a routerLink="/{{ lottery.id }}/details">{{
+        lottery.name
+      }}</a></mat-card-title
+    >
+    <mat-card-content>
+      <div class="date">
+        <mat-icon>access_time</mat-icon>
+        <p>{{ lottery.date | date: 'fullDate' }}</p>
+      </div>
+      <app-balls-result [results]="lottery.results"></app-balls-result>
+    </mat-card-content>
+  </mat-card>
+</div>

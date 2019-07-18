@@ -1,0 +1,30 @@
+{
+  "app": {
+    "title": "Lucky Numbers"
+  },
+  "home": {
+    "intlAPI": "The browser does not support all the features of this app."
+  },
+  "details": {
+    "more": "More",
+    "hide": "Hide",
+    "show": "View archive",
+    "lotteryDescription": {
+      "Powerball": "It’s America’s Game! Since 1992, POWERBALL® has inspired the country with a chance to become a millionaire, while raising nearly $22 billion for good causes supported by lotteries. POWERBALL set a world record jackpot of $1.586 billion in January 2016. The record prize was shared by winners in California, Florida and Tennessee. POWERBALL tickets are $2 per play. Tickets are sold in 44 states, the District of Columbia, Puerto Rico and the U.S. Virgin Islands. Drawings are broadcast live every Wednesday and Saturday at 10:59 p.m. ET from the Florida Lottery draw studio in Tallahassee. More than half of all proceeds from the sale of a POWERBALL ticket remain in the jurisdiction where the ticket was sold. POWERBALL jackpots start at $40 million and increase by a minimum of $10 million per draw until the jackpot is won. Players select five numbers from 1 to 69; and one POWERBALL number from 1 to 26. Players can multiply non-jackpot prizes by 2, 3, 4, 5 or 10 times with the POWERPLAY® option for an additional $1 per play. NOTE: The Match 5 + POWERPLAY prize is always $2 million. The 10X multiplier is only in play when the advertised jackpot is $150 million or less. POWERBALL jackpot winners may choose to receive their prize as an annuity, paid in 30 graduated payments over 29 years, or a lump sum payment. Both advertised prize options are prior to federal and jurisdictional taxes. The overall odds of winning a prize are 1 in 24.9. The odds of winning the jackpot are 1 in 292.2 million"
+    }
+  },
+  "footer": {
+    "madeBy": "Developed by"
+  },
+  "archive": {
+    "archiveTitle": "{{ lotteryName }} archive of results",
+    "yearPostfix": "-th",
+    "selectYear": "Select year",
+    "selectMonthTitle": "Select month in {{ year }} year",
+    "selectDayTitle": "Select a day in {{ month }} of {{ year }} year",
+    "resultsTitle": "{{ lotteryName }} results on {{ day }} {{ month }} of {{ year }} year",
+    "resultsErrorTitle": "Result not found",
+    "changeDate": "Change date",
+    "lastResults": "Last results"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "app": {
+    "title": "Lucky Numbers"
+  },
+  "home": {
+    "intlAPI": "Browser unterstützt nicht alle Funktionen dieser App."
+  },
+  "details": {
+    "more": "Mehr",
+    "hide": "Аufrollen",
+    "show": "Archiv anzeigen",
+    "lotteryDescription": {
+      "Powerball": "It's America's Game! Seit 1992 hat POWERBALL® das Land dazu inspiriert, Millionär zu werden, und fast 22 Milliarden US-Dollar für gute Zwecke gesammelt, die von Lotterien unterstützt werden. POWERBALL stellte im Januar 2016 einen Weltrekordjackpot von 1,586 Milliarden US-Dollar auf. Der Rekordpreis wurde von Gewinnern in Kalifornien, Florida und Tennessee geteilt. POWERBALL-Tickets kosten 2 US-Dollar pro Spiel. Tickets werden in 44 Bundesstaaten, im District of Columbia, in Puerto Rico und auf den US-Jungferninseln verkauft. Die Ziehungen werden jeden Mittwoch und Samstag um 10:59 Uhr live übertragen pm ET aus dem Ziehungsstudio der Florida Lottery in Tallahassee. Mehr als die Hälfte aller Einnahmen aus dem Verkauf eines POWERBALL-Tickets verbleibt in dem Land, in dem das Ticket verkauft wurde. POWERBALL-Jackpots beginnen bei 40 Millionen US-Dollar und steigen um mindestens 10 Millionen US-Dollar pro Ziehung Spieler wählen fünf Zahlen von 1 bis 69 und eine POWERBALL-Zahl von 1 bis 26. Spieler können Nicht-Jackpot-Preise mit dem POWERPLAY® mit 2, 3, 4, 5 oder 10 multiplizieren Option für einen zusätzlichen $ 1 pro Spiel. HINWEIS: Der Match 5 + POWERPLAY-Preis beträgt immer 2 Millionen US-Dollar. Der 10-fache Multiplikator ist nur im Spiel, wenn der angekündigte Jackpot 150 Millionen US-Dollar oder weniger beträgt. POWERBALL-Jackpot-Gewinner können wählen, ob sie ihren Preis als Jahresrente, gezahlt in 30 abgestuften Zahlungen über einen Zeitraum von 29 Jahren oder als Pauschalzahlung erhalten möchten. Beide angebotenen Preisoptionen unterliegen den Steuern des Bundes und der Gerichtsbarkeit. Die Gesamtwahrscheinlichkeit, einen Preis zu gewinnen, beträgt 1 zu 24,9. Die Gewinnchancen für den Jackpot betragen 1 zu 292,2 Millionen."
+    }
+  },
+  "footer": {
+    "madeBy": "Entwickelt von"
+  },
+  "archive": {
+    "archiveTitle": "{{ lotteryName }} Archiv der Ergebnisse",
+    "yearPostfix": "-te",
+    "selectYear": "Wählen Sie ein Jahr",
+    "selectMonthTitle": "Wählen Sie einen Monat im Jahr {{ year }}",
+    "selectDayTitle": "Wählen Sie einen Tag im {{ month }} {{ year }}",
+    "resultsTitle": "{{ lotteryName }} Ergebnisse für den {{ day }}. {{ month }} {{ year }}",
+    "resultsErrorTitle": "Das Ergebnis existiert nicht",
+    "changeDate": "Datum ändern",
+    "lastResults": "Das letzte Ergebnis"
+  }
+}

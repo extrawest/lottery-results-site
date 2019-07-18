@@ -1,0 +1,39 @@
+<div class="header">
+    <a routerLink="">
+        <div class="logo">
+             <a class="back" (click)="onPageBack()" *ngIf="!isHomePage">
+                 <mat-icon>arrow_back_ios</mat-icon>
+            </a>
+            <img src="../../../assets/icons/logo.svg" alt="" />
+        </div>
+    </a>
+
+  <div class="menu-section">
+        <button
+          mat-icon-button
+         [matMenuTriggerFor]="countryMenu"
+          class="flex_wrapper"
+         aria-label="Open x-positioned menu"
+        >
+         <img class="flag--small" src="../../../assets/flags/{{defaultLocale}}.png">
+        <mat-icon>expand_more</mat-icon>
+     </button>
+    <mat-menu xPosition="before" #countryMenu="matMenu" class="before">
+      <a
+        *ngFor="let country of countryMenuItems"
+        (click)="
+          selectLocale(
+            country.languageCode,
+            country.countryCode,
+            country.numberingSystem,
+            country.currency
+          )
+        "
+        mat-menu-item
+      >
+        <img class="flag" src="../../../assets/flags/{{country.languageCode}}.png">
+        <span> {{country.text}} </span>
+      </a>
+    </mat-menu>
+  </div>
+</div>

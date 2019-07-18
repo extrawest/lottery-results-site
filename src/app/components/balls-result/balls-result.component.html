@@ -1,0 +1,30 @@
+<div *ngIf="results && results.length <= 1; then oneResult; else aLotOfResults"></div>
+
+<ng-template #oneResult>
+    <div class="flex">
+        <div
+                *ngFor="let ball of results[0].value"
+                [ngClass]=" results[0].type == 'main' ? 'default' : 'bonus_default' "
+                class="ball"
+        >
+            {{ ball }}
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #aLotOfResults>
+    <div class="flex">
+        <div
+                class="flex"
+                *ngFor="let resultsArray of results"
+        >
+            <div
+                    *ngFor="let ball of resultsArray.value"
+                    [ngClass]="resultsArray.type == 'main' ? 'default' : 'bonus_default' "
+                    class="ball"
+            >
+                {{ ball }}
+            </div>
+        </div>
+    </div>
+</ng-template>

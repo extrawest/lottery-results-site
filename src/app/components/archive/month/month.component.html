@@ -1,0 +1,16 @@
+<div class="flex-column-container">
+    <mat-card>
+        <mat-card-title class="month__title">
+            <strong>{{ 'archive.selectMonthTitle' | translate:lang:{ year: year } }} </strong>
+        </mat-card-title>
+        <mat-grid-list cols="3" rowHeight="100px">
+            <mat-grid-tile
+                    *ngFor="let monthNum of monthsNumbers; let i = index"
+                    class="month__name">
+                <a routerLink="{{ monthNum }}">
+                    {{ monthDates[i] | l10nDate:defaultLocale:options }}
+                </a>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </mat-card>
+</div>

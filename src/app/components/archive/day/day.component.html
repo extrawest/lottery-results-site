@@ -1,0 +1,41 @@
+<div class="flex-column-container">
+  <mat-card>
+    <mat-card-title>
+      <strong>
+        {{
+          'archive.selectDayTitle'
+            | translate
+              : lang
+              : {
+                  month: date | l10nDate: defaultLocale:optionsMonth,
+                  year: date | l10nDate: defaultLocale:optionsYear
+                }
+        }}
+      </strong>
+    </mat-card-title>
+    <mat-grid-list cols="7" rowHeight="55px" gutterSize="5px">
+      <mat-grid-tile *ngFor="let day of prevMonth">
+        <div class="circle inactive border_inactive container">
+          <a>{{ day }}</a>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile *ngFor="let day of monthDays">
+        <div
+          class="container"
+          [ngClass]="{
+            'circle': day,
+            'active': isActiveDay(day),
+            'inactive border_inactive': !isActiveDay(day)
+          }"
+        >
+          <a routerLink="{{ day }}"> {{ day }} </a>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile *ngFor="let day of nextMonth">
+        <div class="circle inactive border_inactive container">
+          <a> {{ day }} </a>
+        </div>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </mat-card>
+</div>

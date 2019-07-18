@@ -1,0 +1,22 @@
+.home-card-container {
+  display: flex;
+  flex-flow: row wrap;
+
+  mat-card {
+    margin: 8px;
+    width: 350px;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.card-title {
+  cursor: pointer;
+  margin-bottom: 5px;
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+}

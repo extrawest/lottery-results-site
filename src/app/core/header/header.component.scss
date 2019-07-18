@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0 40px;
+  background-image: url('../../../assets/icons/top_bg.svg');
+  background-repeat: no-repeat;
+  margin-bottom: -40px;
+
+  .logo {
+    padding-left: 30px;
+  }
+
+  .back {
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    .mat-icon {
+      font-size: 40px;
+      color: #fff;
+      height: auto;
+      width: auto;
+    }
+  }
+}
+
+.flag {
+  height: 45px;
+  margin-right: 10px;
+  &--small {
+    height: 35px;
+  }
+}
+
+.flex_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  display: flex;
+}

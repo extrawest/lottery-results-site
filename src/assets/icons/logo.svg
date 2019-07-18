@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144" height="53" viewBox="0 0 144 53">
+  <defs>
+    <clipPath id="clip-logo">
+      <rect width="144" height="53"/>
+    </clipPath>
+  </defs>
+  <g id="logo" clip-path="url(#clip-logo)">
+    <g id="Group_368" data-name="Group 368" transform="translate(-80.151 -17.902)">
+      <g id="Group_296" data-name="Group 296" transform="translate(2 -1)">
+        <text id="luckynumbers.cc" transform="translate(78.152 69)" fill="#fff" font-size="12" font-family="Roboto-MediumItalic, Roboto" font-weight="500" font-style="italic" opacity="0.568"><tspan x="0" y="0">luckynumbers.cc</tspan></text>
+        <text id="_LUCKY_NUMBERS" data-name=" LUCKY
+NUMBERS" transform="translate(80.152 38)" fill="#fff" font-size="20" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="0" y="0" xml:space="preserve"> LUCKY</tspan><tspan fill="#fdc300"><tspan x="0" y="18">NUMBERS</tspan></tspan></text>
+      </g>
+      <g id="Group_297" data-name="Group 297" transform="translate(141.857 5.628) rotate(-6)">
+        <g id="Group_298" data-name="Group 298" transform="matrix(0.995, 0.105, -0.105, 0.995, -76.842, -13.735)">
+          <g id="Ellipse_24" data-name="Ellipse 24" transform="translate(119 22)" fill="none" stroke="#fff" stroke-width="3">
+            <circle cx="11" cy="11" r="11" stroke="none"/>
+            <circle cx="11" cy="11" r="9.5" fill="none"/>
+          </g>
+          <circle id="Ellipse_25" data-name="Ellipse 25" cx="5" cy="5" r="5" transform="translate(125 28)" fill="#fff"/>
+        </g>
+        <g id="Group_299" data-name="Group 299" transform="matrix(0.995, 0.105, -0.105, 0.995, -83.329, 9.715)">
+          <g id="Ellipse_24-2" data-name="Ellipse 24" transform="translate(119 22)" fill="none" stroke="#fff" stroke-width="3">
+            <circle cx="11" cy="11" r="11" stroke="none"/>
+            <circle cx="11" cy="11" r="9.5" fill="none"/>
+          </g>
+          <circle id="Ellipse_25-2" data-name="Ellipse 25" cx="5" cy="5" r="5" transform="translate(125 28)" fill="#fff"/>
+        </g>
+        <g id="Group_300" data-name="Group 300" transform="matrix(0.995, 0.105, -0.105, 0.995, -59.514, 3.169)">
+          <g id="Ellipse_24-3" data-name="Ellipse 24" transform="translate(119 22)" fill="none" stroke="#fff" stroke-width="3">
+            <circle cx="11" cy="11" r="11" stroke="none"/>
+            <circle cx="11" cy="11" r="9.5" fill="none"/>
+          </g>
+          <circle id="Ellipse_25-3" data-name="Ellipse 25" cx="5" cy="5" r="5" transform="translate(125 28)" fill="#fff"/>
+        </g>
+        <text id="_1" data-name="1" transform="translate(48.962 35.361)" fill="#2871be" font-size="7" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-1.965" y="0">1</tspan></text>
+        <text id="_2" data-name="2" transform="translate(42.366 58.598)" fill="#2871be" font-size="7" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-1.965" y="0">2</tspan></text>
+        <text id="_3" data-name="3" transform="translate(66.284 52.03)" fill="#2871be" font-size="7" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-1.965" y="0">3</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

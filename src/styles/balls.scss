@@ -1,0 +1,122 @@
+.ball {
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 0;
+  text-align: center;
+}
+
+.main, .default{
+  border: 2px solid #333;
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+  font-weight: 700;
+}
+.bonus_default {
+  border: 2px solid #06a1a5;
+  color: #3b31dc;
+  background-color: #f4ffcb;
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+  font-weight: 700;
+}
+
+.bonus {
+  background: url('src/assets/icons/powerball-redball.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  width: 31px;
+
+  &::after {
+    content: 'POWER';
+    margin-left: -3px;
+    text-align: center;
+    font-size: 11px;
+    color: #000;
+    text-shadow: 0 1px 2px #333;
+  }
+}
+
+.powerball {
+  background: url('src/assets/icons/powerball.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+  color: #000;
+  text-shadow: 0 1px 2px #333;
+  font-size: 12px;
+  margin-bottom: 6px;
+
+  &:last-child {
+    background: url('src/assets/icons/powerball-redball.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    width: 31px;
+
+    &::after {
+      content: 'POWER';
+      margin-left: -3px;
+      text-align: center;
+      font-size: 11px;
+      color: #000;
+      text-shadow: 0 1px 2px #333;
+    }
+  }
+}
+
+.lunchtime {
+  background: url('src/assets/icons/lanchtime.png') no-repeat;
+  background-size: cover;
+  color: #fff;
+  line-height: 28px;
+  text-shadow: 0 1px 2px #333;
+  height: 30px;
+  width: 30px;
+  margin-right: 0px;
+  font-size: 11px;
+  font-weight: 700;
+
+  &:last-child {
+    background-position: center -197px !important;
+    color: #333 !important;
+    width: 32px;
+    height: 32px;
+    text-shadow: #fff 0 1px 2px !important;
+  }
+}
+
+.teatime {
+  border: 2px solid #858c17;
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+  font-weight: 700;
+
+  &:last-child {
+    margin-left: 15px;
+  }
+}
+
+.euromillions {
+  border: 2px solid #000b90;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000b90;
+
+  &:last-child {
+    border: none;
+    background: url('src/assets/icons/euromillions.svg') no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+  }
+}

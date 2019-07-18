@@ -1,0 +1,132 @@
+body {
+  font-family: $font-family;
+
+  p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #212121;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .date {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    p {
+      margin: 0;
+      margin-left: 5px;
+      color: #9e9e9e;
+    }
+  }
+
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    outline: none;
+  }
+
+  a,
+  button {
+    cursor: pointer;
+  }
+
+  .app-content {
+    padding: 32px;
+    box-sizing: border-box;
+
+    h1 {
+      display: inline-block;
+      font-size: 24px;
+      font-weight: 500;
+      margin: 8px 0px;
+    }
+
+    h1:after {
+      content: '';
+      display: block;
+      height: 1px;
+      width: 40%;
+      margin: 24px 0px 10px;
+      background: $lightgray;
+      clear: both;
+    }
+  }
+
+  .mat-icon {
+    font-size: 22px;
+  }
+
+  .mat-card {
+    padding: 18px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .fill-remaining-space {
+    flex: 1 1 auto;
+  }
+}
+
+// Stretch to screen size in fullscreen mode.
+body .app-content {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.has-error {
+  color: $brightred;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.app-root {
+  background-color: #f8f8f8;
+}
+
+.menu-section {
+  text-align: right;
+  padding: 10px;
+}
+
+body .mat-list-base .mat-list-item .mat-list-item-content {
+  padding: 0;
+
+  .mat-icon {
+    margin-right: 5px;
+  }
+}
+
+//Loading
+.loader {
+  position: fixed;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  mat-progress-spinner {
+    z-index: 999;
+  }
+}

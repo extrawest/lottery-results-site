@@ -1,0 +1,65 @@
+.truncating-text {
+  max-height: 195px;
+  overflow: hidden;
+
+  .open & {
+    max-height: 100%;
+  }
+}
+
+.time-list.hide {
+  display: none;
+}
+
+.mat-card + .mat-card {
+  margin-top: 3px;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: underline;
+  color: #536DFE;
+  font-family: 'Roboto', sans-serif;
+}
+
+.mat-list {
+  margin-bottom: 15px;
+}
+
+.mat-list-base .mat-list-item {
+  height: auto;
+
+  & + .mat-list-item {
+    margin-top: 5px;
+  }
+}
+
+
+.flex {
+  display: flex;
+}
+
+.date {
+  color: #9E9E9E;
+  display: flex;
+  align-items: center;
+  margin: 5px 0 10px;
+
+  p {
+    margin: 0 0 0 5px;
+  }
+
+  .mat-icon {
+    color: #212121;
+  }
+}
+
+.powerball:last-child {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    bottom: -95%;
+    left: 0;
+  }
+}

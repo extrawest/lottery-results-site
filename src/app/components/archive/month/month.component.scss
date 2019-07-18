@@ -1,0 +1,33 @@
+$border-size: 2px;
+$border-color: #d6d6d6;
+
+.flex-row-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.mat-grid-list {
+  border-top: $border-size solid $border-color;
+  border-left: $border-size solid $border-color;
+
+  .mat-grid-tile {
+    border-right: $border-size solid $border-color;
+    border-bottom: $border-size solid $border-color;
+  }
+}
+
+.month__title {
+  padding-bottom: 15px;
+}
+
+.month__name {
+  font-size: 110%;
+  font-weight: 500;
+  color: #2c71be;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+{
+  "app": {
+    "title": "Lucky Numbers"
+  },
+  "home": {
+    "intlAPI": "O navegador não suporta todos os recursos deste aplicativo."
+  },
+  "details": {
+    "more": "Mais",
+    "hide": "Esconder",
+    "show": "Visualizar arquivo",
+    "lotteryDescription": {
+      "Powerball": "It's America's Game! Desde 1992, a POWERBALL® inspirou o país com uma chance de se tornar milionário, enquanto arrecadou quase US $ 22 bilhões para boas causas apoiadas por loterias. A POWERBALL estabeleceu um recorde mundial de US $ 1,586 bilhão em janeiro de 2016. O prêmio recorde foi compartilhada pelos vencedores na Califórnia, Flórida e Tennessee, e os ingressos são vendidos em 44 estados, no Distrito de Colúmbia, em Porto Rico e nas Ilhas Virgens dos EUA, e os desenhos são transmitidos ao vivo todas as quartas e sábados às 10h59. pm ET do ateliê de loteria da Flórida em Tallahassee Mais da metade de todos os rendimentos da venda de um bilhete da POWERBALL permanecem na jurisdição onde o ingresso foi vendido, os jackpots da POWERBALL começam em US $ 40 milhões e aumentam em no mínimo US $ 10 milhões por empate até que o jackpot seja ganho. Os jogadores selecionam cinco números de 1 a 69 e um número de POWERBALL de 1 a 26. Os jogadores podem multiplicar os prêmios que não são do jackpot por 2, 3, 4, 5 ou 10 vezes com o POWERPLAY® opção para um adicional de US $ 1 por jogo. NOTA: O prêmio Match 5 + POWERPLAY é sempre de US $ 2 milhões. O multiplicador de 10X só está em jogo quando o jackpot anunciado é de US $ 150 milhões ou menos. Os ganhadores do jackpot da POWERBALL podem optar por receber seu prêmio como uma anuidade, pagos em 30 pagamentos graduados ao longo de 29 anos ou um pagamento único. Ambas as opções de prêmios anunciadas são anteriores aos impostos federais e jurisdicionais. As chances totais de ganhar um prêmio são 1 em 24,9. As probabilidades de ganhar o jackpot são 1 em 292,2 milhões "
+    }
+  },
+  "footer": {
+    "madeBy": "Desenvolvido por"
+  },
+  "archive": {
+    "archiveTitle": "{{ lotteryName }} arquivo de resultados",
+    "yearPostfix": " ",
+    "selectYear": "Escolha um ano",
+    "selectMonthTitle": "Escolha um mês em {{ year }}",
+    "selectDayTitle": "Escolha um dia em {{ month }} de {{ year }}",
+    "resultsTitle": "{{ lotteryName }} resultados para {{ day }} de {{ month }} de {{ year }}",
+    "resultsErrorTitle": "Result not found",
+    "changeDate": "Data da mudança",
+    "lastResults": "O último resultado"
+  }
+}

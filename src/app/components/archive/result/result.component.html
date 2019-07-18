@@ -1,0 +1,36 @@
+<mat-card>
+  <mat-card-title>
+    <strong *ngIf="!errorMessage">{{
+      'archive.resultsTitle'
+        | translate
+          : lang
+          : {
+              lotteryName: lotteryName,
+              day: date | l10nDate: defaultLocale:optionsDay,
+              month: date | l10nDate: defaultLocale:optionsMonth,
+              year: date | l10nDate: defaultLocale:optionsYear
+            }
+    }}</strong>
+    <strong *ngIf="errorMessage">
+      {{ 'archive.resultsErrorTitle' | translate: lang }}
+    </strong>
+  </mat-card-title>
+  <app-balls-result [results]="lottery.results"></app-balls-result>
+  <hr />
+  <div class="flex-block">
+    <span class="material-icons">event_note</span>
+    <a
+      class="box change-date"
+      routerLink="/{{ lotteryId }}/details/archive"
+      l10nTranslate
+      >archive.changeDate</a
+    >
+    <span class="box">|</span>
+    <a
+      class="box last-result"
+      routerLink="/{{ lotteryId }}/details"
+      l10nTranslate=""
+      >archive.lastResults</a
+    >
+  </div>
+</mat-card>

@@ -1,0 +1,18 @@
+<div class="flex-column-container years-list">
+    <mat-card>
+        <mat-card-title class="years-list__title">
+            <strong l10nTranslate>archive.selectYear</strong>
+        </mat-card-title>
+        <mat-expansion-panel *ngFor="let element of archiveYearsList">
+            <mat-expansion-panel-header>
+                <mat-panel-title class="years-list__decade-title">
+                    {{ element.decade }}<span l10nTranslate>archive.yearPostfix</span>
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div *ngFor="let year of element.years" class="years-list__years">
+                <mat-icon>navigate_next</mat-icon>
+                <a routerLink="{{ year }}" class="years-list__year"> {{ year }} </a>
+            </div>
+        </mat-expansion-panel>
+    </mat-card>
+</div>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="295" height="138" viewBox="0 0 295 138">
+  <defs>
+    <clipPath id="clip-top_bg">
+      <rect width="295" height="138"/>
+    </clipPath>
+  </defs>
+  <g id="top_bg" clip-path="url(#clip-top_bg)">
+    <g id="header" transform="translate(3 3)">
+      <g id="logo" transform="translate(-52 3)">
+        <rect id="Rectangle_257" data-name="Rectangle 257" width="360" height="620" transform="translate(49 -6)" fill="#fafafa" opacity="0.25"/>
+      </g>
+      <g id="Group_337" data-name="Group 337" transform="translate(-3 -3)">
+        <path id="Path_87" data-name="Path 87" d="M127.169,0A127.169,127.169,0,1,1,0,127.169,127.169,127.169,0,0,1,127.169,0Z" transform="translate(40.724 -137.658)" fill="#8ec91f"/>
+        <ellipse id="Ellipse_21" data-name="Ellipse 21" cx="127.168" cy="127.169" rx="127.168" ry="127.169" transform="translate(15 -137.658)" fill="#fdc300"/>
+        <ellipse id="Ellipse_22" data-name="Ellipse 22" cx="148.308" cy="148.308" rx="148.308" ry="148.308" transform="translate(-53.93 -158.797)" fill="#2871be"/>
+      </g>
+    </g>
+  </g>
+</svg>
